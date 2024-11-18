@@ -8,12 +8,23 @@
         integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"
+        integrity="sha512-DdX/YwF5e41Ok+AI81HI8f5/5UsoxCVT9GKYZRIzpLxb8Twz4ZwPPX+jQMwMhNQ9b5+zDEefc+dcvQoPWGNZ3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="module" src="script/script.js"></script>
-    <title>Email Spammer</title>
+    <title>Email Generator</title>
 </head>
 
 <body>
-
+    <header class="d-flex justify-content-center ">
+        <h1 class="align-self-center">
+            Email Generator
+        </h1>
+    </header>
+    <main class="d-flex justify-content-center flex-wrap">
+        <button id="generator" class="m-auto firstPosition">Genera Mail</button>
+        <div id="emailContainer" class="w-50 m-auto"></div>
+    </main>
 </body>
 
 </html>

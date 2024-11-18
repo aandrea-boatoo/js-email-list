@@ -30,6 +30,7 @@ main {
 button {
     position: absolute;
     width: 25%;
+    height: 45px;
     top: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;
@@ -38,10 +39,7 @@ button {
     text-align: center;
     background-color: rgb(255, 213, 0);
     border: 1px solid rgb(122, 105, 20);
-    transition: width 1s;
-    transition: height 1s;
-    transition: border-radius 1s;
-    transition: left 1s;
+    transition: all 1s;
 }
 
 .firstPosition {
@@ -49,14 +47,8 @@ button {
 }
 
 .newPosition {
-    border-radius: 100%;
+    border-radius: 100px;
     width: 150px;
     height: 150px;
     left: 15%;
 }
-
-/* button {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-} */

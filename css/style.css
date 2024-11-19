@@ -5,12 +5,13 @@
 }
 
 body {
-    background-color: rgba(255, 213, 3, 0.55);
+    background-color: rgb(0, 0, 0);
 }
 
 header {
     height: 100px;
-    background-color: rgb(255, 213, 0);
+    background-color: #00573f;
+    color: aliceblue;
 }
 
 main {
@@ -37,8 +38,10 @@ button {
     border: 1px solid black;
     border-radius: 20px;
     text-align: center;
-    background-color: rgb(255, 213, 0);
-    border: 1px solid rgb(122, 105, 20);
+    color: aliceblue;
+    background-color: #c40233;
+    border: 1px solid #790220;
+    ;
     transition: all 1s;
 }
 
